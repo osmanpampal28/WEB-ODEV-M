@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Osman Pampal Kişisel WEB Sitesi</title>
+        <meta charset="utf-8">
+        <meta http-equiv="refresh" content="150">
+        <meta name="description" content="Osman Pampal">
+        <meta name="keywords" content="Osman Pampal,login">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" href="cssdosya.css" type="text/css">
+        <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+        
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8 mx-auto" id="sayfa">
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="fotoğraf.jpg" alt="OSMAN PAMPAL" width="200px" height="200px">
+                            </td>
+                            <td width="1000">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="menu">
+                                            <h1 style="color:blue;">OSMAN PAMPAL</h1><br>
+                                            <span><a href="index.html" target="_blank">HAKKIMDA</a></span>
+                                            <span><a href="sehrim.html" target="_blank">ŞEHRİM</a></span>
+                                            <span><a href="takimimiz.html" target="_blank">TAKIMIMIZ</a></span>
+                                            <span><a href="login.html" target="_blank">LOGİN</a></span>
+                                            <span><a href="iletisim.html" target="_blank">İLETİŞİM</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>            
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div style="background-color: white;  border: solid white 2px;
+                    border-radius: 10px;
+                    padding: 5px;
+                    margin-top: 20px;  
+                    margin-left: 100px;
+                    margin-right: 100px;
+                    margin-bottom: 20px;">
+                        <form id="giris" action="giris.php" method="POST">
+                            <div>
+                                <label for="user_password" >Email</label>
+                            </div>
+                            <div>
+                                <input type="email" name="girismail" id="girismail" required="required">
+                            </div>
+                            <div>
+                                <label for="user_password">Şifre</label>
+                            </div>
+                            <div>
+                                <input type="password" name="girispassword" id="girispassword" required="required" maxlength="8">
+                            </div>
+                            <div>
+                                <input type="submit" name="button" value="gönder" style="background-color: lightgreen;">
+                                <input type="reset" name="button" value="reset" style="background-color: red;">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
